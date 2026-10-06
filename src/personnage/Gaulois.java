@@ -16,4 +16,7 @@ public class Gaulois {
 	private String prendreParole() {
 	return "Le gaulois " + nom + " : ";
 	}
+	public static void main(String[] args) {
+		Gaulois asterix = new Gaulois("Astérix", 8);
+	}
 }
