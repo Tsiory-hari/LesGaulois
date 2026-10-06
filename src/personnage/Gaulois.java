@@ -22,6 +22,7 @@ public class Gaulois {
 	}
 	@Override
 	public String toString() {
-		return "Gaulois [nom=" + nom + ", force=" + force + "]";
+		return nom;
+		
 	}
 }
